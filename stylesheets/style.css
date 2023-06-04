@@ -1,15 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cambay&family=Exo+2:wght@500&family=Lustria&display=swap');
+
+
+
 
 * {
-  font-family: Arial, sans-serif;
+  --bgColor: #e3e5d8;
+  --fColor: #2e1f6b;
+  font-family: Cambay, sans-serif;
+  background-color: var(--bgColor);
+  color: var(--fColor);
+    
 }
+
+#skills {
+  display: flex;
+  row-gap: 0.1%;
+  column-gap: 0.1%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #D4AF37;
+  border-radius: 2.5%;
+  
+  
+}
+
+
+section#skills figure {
+  text-align: center;
+  border-bottom: 1px solid var(--fColor);
+}
+
+
+#lProg {
+  width: 20%;
+}
+#lProg1 {
+  width: 20%;
+}
+#lProg2 {
+  width: 20%;
+}
+#lProg3 {
+  width: 20%;
+}
+
+#sOp {
+  width: 25%;
+}
+
+#sO1{
+  width: 30%;
+}
+
+#sO2{
+  width: 30%;
+}
+
+#bD {
+  width: 25%;
+}
+
+#bD1 {
+  width: 68.95%;
+}
+
+#lang {
+  width: 25%;
+}
+
+#l1 {
+  width: 30%;
+}
+
+#l2 {
+  width: 30%;
+}
+
+
+
 h1 {
-  font-family: 'Hind', Georgia, serif;
+  font-family: Exo+2, Georgia, serif;
+  
 }
 h2 {
-  font-family: Times New Roman, serif;
+  font-family: Lustria, serif;
+  
 }
-a {
-  text-decoration: none; 
-  font-size: 1.2rem; 
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: var(--fColor);
+  border-radius: 2%;
+   
+}
+
+footer p{
+  background-color: var(--fColor);
+  color: white;
+}
+
+footer figure#map{
+  text-align: center;
+  background-color: var(--fColor);
+}
+
+#uText{
+  background-color: var(--fColor);
+  color: white;
+}
+
+#contacto p{
+  line-height: 10px;
+  text-indent: 5px;
+}
+
+footer section{
+  background-color: var(--fColor);
+}
+
+#contacto{
+  line-gap-override: 1px;
 }
