@@ -13,6 +13,7 @@
     
 }
 
+
 #skills {
   display: flex;
   row-gap: 0.1%;
@@ -95,6 +96,33 @@ footer {
   background-color: var(--fColor);
   border-radius: 2%;
    
+}
+
+#navi a {
+  text-decoration: none;
+  
+}
+
+#navi *{
+  background-color: var(--fColor);
+  color: white;
+  border-radius: 15px;
+  
+}
+
+#datos {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  column-gap: 30rem;
+
+}
+
+
+#navi ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  
 }
 
 footer p{
